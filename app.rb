@@ -3,6 +3,6 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
 get '/' do
-  "Hours of Operation"
+ erb :index
 end
 end
